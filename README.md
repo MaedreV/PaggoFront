@@ -13,7 +13,9 @@ Clone o repositório frontend: git clone https://github.com/MaedreV/PaggoFront
 
 Acesse a pasta do frontend:
 Instale as dependências: npm install ou yarn install
+
 Rodar o frontend: npm run dev ou yarn dev
+
 O frontend estará disponível em http://localhost:3000.
 
 
