@@ -1,7 +1,10 @@
+"use client";
+
+
 import React, { useState } from 'react';
-import { useAuth } from '../context/AuthContext';
-import { useRouter } from 'next/router';
-import { login } from './api/auth'; // Função já criada
+import { useAuth } from '../../context/AuthContext';
+import { useRouter } from "next/navigation"; 
+import { login } from '../api/auth'; 
 
 const LoginPage: React.FC = () => {
   const [email, setEmail] = useState('');
