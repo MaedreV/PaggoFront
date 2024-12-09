@@ -1,17 +1,17 @@
 "use client";
 
 
-import { useRouter } from "next/navigation"; // Para navegação entre páginas
+import { useRouter } from "next/navigation"; 
 
 export default function Home() {
   const router = useRouter();
 
   const handleLogin = () => {
-    router.push("/login"); // Redireciona para a página de login
+    router.push("/login");
   };
 
   const handleRegister = () => {
-    router.push("/register"); // Redireciona para a página de registro
+    router.push("/register"); 
   };
 
   return (

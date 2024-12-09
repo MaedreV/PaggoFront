@@ -5,17 +5,22 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-primary: 'GeistMono', Arial, Helvetica, sans-serif; 
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #F3F4F6;
+    --foreground: #000000;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-primary); 
+}
+
+h1, h2, h3, p {
+  font-family: var(--font-primary); 
 }
