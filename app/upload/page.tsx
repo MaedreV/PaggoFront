@@ -33,7 +33,7 @@ const UploadPage: React.FC = () => {
       setLoading(false);
     } catch (err) {
       setLoading(false);
-      setError('Erro no envio do arquivo');
+      setError('Erro no envio do arquivo' + err);
     }
   };
 

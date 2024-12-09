@@ -19,7 +19,7 @@ const LoginPage: React.FC = () => {
       authLogin(token, user);
       router.push('/upload');
     } catch (err) {
-      setError('Email ou senha inválidos.');
+      setError('Email ou senha inválidos.' + err);
     }
   };
 

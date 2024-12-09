@@ -31,7 +31,7 @@ const DocumentsPage: React.FC = () => {
         setDocuments(data);
         setLoading(false);
       } catch (err) {
-        setError('Erro ao carregar documentos.');
+        setError('Erro ao carregar documentos.' + err);
         setLoading(false);
       }
     };

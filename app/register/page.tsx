@@ -19,7 +19,7 @@ const RegisterPage: React.FC = () => {
       setError('');
       setTimeout(() => router.push('/login'), 2000);
     } catch (err) {
-      setError('Erro ao registrar. Tente novamente.');
+      setError('Erro ao registrar. Tente novamente.' + err);
       setSuccess(false);
     }
   };
